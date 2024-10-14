@@ -1,0 +1,49 @@
+.labels{
+    font-size: 26px;
+}
+
+.felder {
+    width: 100%;
+    height: 26px;
+padding: 10px;
+    margin-bottom: 15px;
+border: 1px solid #ccc;
+border-radius: 12px;
+font-size: 22px;
+}
+
+.form-submit-button {
+background-color: #4CAF50; /* Grüner Hintergrund */
+color: white; /* Weißer Text */
+padding: 10px 20px; /* Innenabstand */
+border: none; /* Keine Rahmen */
+border-radius: 4px; /* Abgerundete Ecken */
+font-size: 24px; /* Schriftgröße */
+cursor: pointer; /* Zeiger-Cursor */
+}
+
+.besucherliste {
+width: 100%; /* Setzt die Breite der Tabelle auf 100% */
+border-collapse: collapse; /* Entfernt den Abstand zwischen den Zellen */
+margin: 20px 0; /* Fügt oben und unten Abstand hinzu */
+    white-space: nowrap;
+}
+
+.besucherliste th, .besucherliste td {
+border: 1px solid #ddd; /* Fügt einen grauen Rand hinzu */
+padding: 10px; /* Fügt Innenabstand zu den Zellen hinzu */
+text-align: center; /* Text zentriert */
+}
+
+.besucherliste th {
+background-color: #4CAF50; /* Hintergrundfarbe für die Kopfzeile */
+color: white; /* Textfarbe für die Kopfzeile */
+}
+
+.besucherliste tr:nth-child(even) {
+background-color: #f2f2f2; /* Hintergrundfarbe für gerade Zeilen */
+}
+
+.besucherliste tr:nth-child(odd) {
+background-color: #ffffff; /* Hintergrundfarbe für ungerade Zeilen */
+}
